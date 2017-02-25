@@ -1,9 +1,9 @@
 //
 //  TextViewTableViewCell.m
-//  WL
+//  PublicCell
 //
-//  Created by Reminisce on 16/6/12.
-//  Copyright (c) 2016 格式科技. All rights reserved.
+//  Created by chuzhaozhi on 2016/11/9.
+//  Copyright © 2016年 chuzhaozhi. All rights reserved.
 //
 
 #import <Masonry/View+MASShorthandAdditions.h>

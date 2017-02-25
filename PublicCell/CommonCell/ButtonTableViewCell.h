@@ -1,9 +1,9 @@
 //
 //  ButtonTableViewCell.h
-//  schoolConnection
+//  PublicCell
 //
-//  Created by Reminisce on 16/7/19.
-//  Copyright © 2016年 杭州新航线软件科技有限公司. All rights reserved.
+//  Created by chuzhaozhi on 2016/11/9.
+//  Copyright © 2016年 chuzhaozhi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
