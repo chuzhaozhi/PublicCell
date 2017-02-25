@@ -4,28 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PublicCell.xcscheme</key>
+		<key>Masonry.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PublicCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0384F99A1DD2BA880082D00D</key>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
-		<key>0384F9B31DD2BA880082D00D</key>
+		<key>AF7A15A5A5469C38595354A9F7951522</key>
 		<dict>
 			<key>primary</key>
-			<true />
-		</dict>
-		<key>0384F9BE1DD2BA880082D00D</key>
-		<dict>
-			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 	</dict>
 </dict>

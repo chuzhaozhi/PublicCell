@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0307869A1DD2D05B00154A9D /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 030786991DD2D05B00154A9D /* ButtonTableViewCell.m */; };
+		0307869F1DD2D0F700154A9D /* InputStrTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307869C1DD2D0F700154A9D /* InputStrTableViewCell.m */; };
+		030786A01DD2D0F700154A9D /* TextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307869E1DD2D0F700154A9D /* TextViewTableViewCell.m */; };
+		030786A41DD2D15100154A9D /* TitleWithSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 030786A21DD2D15100154A9D /* TitleWithSwitchTableViewCell.m */; };
+		030786A51DD2D15100154A9D /* TitleWithSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030786A31DD2D15100154A9D /* TitleWithSwitchTableViewCell.xib */; };
 		0384F9A01DD2BA880082D00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384F99F1DD2BA880082D00D /* main.m */; };
 		0384F9A31DD2BA880082D00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384F9A21DD2BA880082D00D /* AppDelegate.m */; };
 		0384F9A61DD2BA880082D00D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384F9A51DD2BA880082D00D /* ViewController.m */; };
@@ -15,6 +20,8 @@
 		0384F9AE1DD2BA880082D00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0384F9AC1DD2BA880082D00D /* LaunchScreen.storyboard */; };
 		0384F9B91DD2BA880082D00D /* PublicCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384F9B81DD2BA880082D00D /* PublicCellTests.m */; };
 		0384F9C41DD2BA880082D00D /* PublicCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384F9C31DD2BA880082D00D /* PublicCellUITests.m */; };
+		0384F9D41DD2C02E0082D00D /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384F9D31DD2C02E0082D00D /* CommonTableViewCell.m */; };
+		80F0B6DD1FCA1F5CD7E2D205 /* libPods-PublicCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F1F57D9654BD5445EA2D23 /* libPods-PublicCell.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030786981DD2D05B00154A9D /* ButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTableViewCell.h; sourceTree = "<group>"; };
+		030786991DD2D05B00154A9D /* ButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTableViewCell.m; sourceTree = "<group>"; };
+		0307869B1DD2D0F700154A9D /* InputStrTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputStrTableViewCell.h; sourceTree = "<group>"; };
+		0307869C1DD2D0F700154A9D /* InputStrTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputStrTableViewCell.m; sourceTree = "<group>"; };
+		0307869D1DD2D0F700154A9D /* TextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewTableViewCell.h; sourceTree = "<group>"; };
+		0307869E1DD2D0F700154A9D /* TextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewTableViewCell.m; sourceTree = "<group>"; };
+		030786A11DD2D15100154A9D /* TitleWithSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleWithSwitchTableViewCell.h; sourceTree = "<group>"; };
+		030786A21DD2D15100154A9D /* TitleWithSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleWithSwitchTableViewCell.m; sourceTree = "<group>"; };
+		030786A31DD2D15100154A9D /* TitleWithSwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleWithSwitchTableViewCell.xib; sourceTree = "<group>"; };
 		0384F99B1DD2BA880082D00D /* PublicCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0384F99F1DD2BA880082D00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0384F9A11DD2BA880082D00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,12 @@
 		0384F9BF1DD2BA880082D00D /* PublicCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublicCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0384F9C31DD2BA880082D00D /* PublicCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicCellUITests.m; sourceTree = "<group>"; };
 		0384F9C51DD2BA880082D00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0384F9D21DD2C02E0082D00D /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		0384F9D31DD2C02E0082D00D /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		0384F9D51DD2C4760082D00D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		90C5B7D1FC911F5802AC0ECE /* Pods-PublicCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PublicCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-PublicCell/Pods-PublicCell.release.xcconfig"; sourceTree = "<group>"; };
+		98F1F57D9654BD5445EA2D23 /* libPods-PublicCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PublicCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB617FB1105D9456B4668A /* Pods-PublicCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PublicCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PublicCell/Pods-PublicCell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F0B6DD1FCA1F5CD7E2D205 /* libPods-PublicCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				0384F9B71DD2BA880082D00D /* PublicCellTests */,
 				0384F9C21DD2BA880082D00D /* PublicCellUITests */,
 				0384F99C1DD2BA880082D00D /* Products */,
+				94E32CDF1677FCE2FF0033A0 /* Pods */,
+				A81F75284E94CCFF3DA649A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,7 @@
 		0384F99D1DD2BA880082D00D /* PublicCell */ = {
 			isa = PBXGroup;
 			children = (
+				0384F9D11DD2C0220082D00D /* CommonCell */,
 				0384F9A11DD2BA880082D00D /* AppDelegate.h */,
 				0384F9A21DD2BA880082D00D /* AppDelegate.m */,
 				0384F9A41DD2BA880082D00D /* ViewController.h */,
@@ -118,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				0384F99F1DD2BA880082D00D /* main.m */,
+				0384F9D51DD2C4760082D00D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +167,41 @@
 			path = PublicCellUITests;
 			sourceTree = "<group>";
 		};
+		0384F9D11DD2C0220082D00D /* CommonCell */ = {
+			isa = PBXGroup;
+			children = (
+				030786A11DD2D15100154A9D /* TitleWithSwitchTableViewCell.h */,
+				030786A21DD2D15100154A9D /* TitleWithSwitchTableViewCell.m */,
+				030786A31DD2D15100154A9D /* TitleWithSwitchTableViewCell.xib */,
+				0307869B1DD2D0F700154A9D /* InputStrTableViewCell.h */,
+				0307869C1DD2D0F700154A9D /* InputStrTableViewCell.m */,
+				0307869D1DD2D0F700154A9D /* TextViewTableViewCell.h */,
+				0307869E1DD2D0F700154A9D /* TextViewTableViewCell.m */,
+				030786981DD2D05B00154A9D /* ButtonTableViewCell.h */,
+				030786991DD2D05B00154A9D /* ButtonTableViewCell.m */,
+				0384F9D21DD2C02E0082D00D /* CommonTableViewCell.h */,
+				0384F9D31DD2C02E0082D00D /* CommonTableViewCell.m */,
+			);
+			path = CommonCell;
+			sourceTree = "<group>";
+		};
+		94E32CDF1677FCE2FF0033A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB617FB1105D9456B4668A /* Pods-PublicCell.debug.xcconfig */,
+				90C5B7D1FC911F5802AC0ECE /* Pods-PublicCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A81F75284E94CCFF3DA649A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F1F57D9654BD5445EA2D23 /* libPods-PublicCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0384F9C81DD2BA880082D00D /* Build configuration list for PBXNativeTarget "PublicCell" */;
 			buildPhases = (
+				CADBBC33ACA6F21F09057404 /* [CP] Check Pods Manifest.lock */,
 				0384F9971DD2BA880082D00D /* Sources */,
 				0384F9981DD2BA880082D00D /* Frameworks */,
 				0384F9991DD2BA880082D00D /* Resources */,
+				CC0B1417F5F06D0CD62FB905 /* [CP] Embed Pods Frameworks */,
+				DB5D50B3B0F2B73078C74743 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030786A51DD2D15100154A9D /* TitleWithSwitchTableViewCell.xib in Resources */,
 				0384F9AE1DD2BA880082D00D /* LaunchScreen.storyboard in Resources */,
 				0384F9AB1DD2BA880082D00D /* Assets.xcassets in Resources */,
 				0384F9A91DD2BA880082D00D /* Main.storyboard in Resources */,
@@ -271,14 +337,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CADBBC33ACA6F21F09057404 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0B1417F5F06D0CD62FB905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PublicCell/Pods-PublicCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5D50B3B0F2B73078C74743 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PublicCell/Pods-PublicCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0384F9971DD2BA880082D00D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0384F9D41DD2C02E0082D00D /* CommonTableViewCell.m in Sources */,
 				0384F9A61DD2BA880082D00D /* ViewController.m in Sources */,
 				0384F9A31DD2BA880082D00D /* AppDelegate.m in Sources */,
+				030786A01DD2D0F700154A9D /* TextViewTableViewCell.m in Sources */,
+				030786A41DD2D15100154A9D /* TitleWithSwitchTableViewCell.m in Sources */,
 				0384F9A01DD2BA880082D00D /* main.m in Sources */,
+				0307869F1DD2D0F700154A9D /* InputStrTableViewCell.m in Sources */,
+				0307869A1DD2D05B00154A9D /* ButtonTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +482,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "${SRCROOT}/PublicCell/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -408,6 +528,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/PublicCell/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -423,6 +544,7 @@
 		};
 		0384F9C91DD2BA880082D00D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CB617FB1105D9456B4668A /* Pods-PublicCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X7X563P935;
@@ -435,6 +557,7 @@
 		};
 		0384F9CA1DD2BA880082D00D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C5B7D1FC911F5802AC0ECE /* Pods-PublicCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X7X563P935;
@@ -514,6 +637,7 @@
 				0384F9CA1DD2BA880082D00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0384F9CB1DD2BA880082D00D /* Build configuration list for PBXNativeTarget "PublicCellTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +646,7 @@
 				0384F9CD1DD2BA880082D00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0384F9CE1DD2BA880082D00D /* Build configuration list for PBXNativeTarget "PublicCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +655,7 @@
 				0384F9D01DD2BA880082D00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

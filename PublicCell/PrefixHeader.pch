@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  PublicCell
+//
+//  Created by chuzhaozhi on 2016/11/9.
+//  Copyright © 2016年 chuzhaozhi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//以下是自动适配相关宏定义 不用自动适配可以无视
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "Masonry.h"
+
+#endif
+#endif /* PrefixHeader_pch */
