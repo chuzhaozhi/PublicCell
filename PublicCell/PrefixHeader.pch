@@ -14,17 +14,7 @@
 #define MAS_SHORTHAND
 //define this constant if you want to enable auto-boxing for default syntax
 #define MAS_SHORTHAND_GLOBALS
-/**
- *  RGB值方式
- */
-#define RGBA(r,g,b,a)     [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
-#define RGB(r,g,b)          RGBA(r,g,b,1)
-#define COLOR_DETAIL        RGB(109, 116, 121)  //CELL 描述颜色
-/**
- *  字号设置
- */
-#define FONT(RatioFont)     [UIFont systemFontOfSize:RatioFont]
-#define COLOR_TITLE         RGB(41, 46, 49)  //CELL title颜色
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #ifdef __OBJC__
